@@ -91,3 +91,6 @@ The two models used in sleep stage scoring are DeepSleepNet and TinySleepNet, wi
 Deep learning is widely applied to supervised learning tasks in biosignal analysis, relying on labeled data to predict outcomes. An alternative approach involves transforming raw signals into spectrogram or image representations, which can be processed using CNNs that excel in image recognition tasks. However, end-to-end training using raw signals can be challenging, especially when signals have unclear patterns or insufficient training data.
 
 Remote monitoring using deep learning is a promising avenue, as it involves adapting models developed in clinical settings to function with wearable devices.
+
+<h2>Assignment<h2>
+<a href="https://colab.research.google.com/drive/1A9JWfdh3bRYqZl6Gr7VsZmJDntxUXw33">Colab</a>
