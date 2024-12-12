@@ -93,4 +93,4 @@ Deep learning is widely applied to supervised learning tasks in biosignal analys
 Remote monitoring using deep learning is a promising avenue, as it involves adapting models developed in clinical settings to function with wearable devices.
 
 <h2>Assignment<h2>
-<a href="https://github.com/punnavitp/project/blob/main/brain.py">Colab</a>
+<a href="https://github.com/punnavitp/project/blob/main/brain.py">code</a>
