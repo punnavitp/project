@@ -23,3 +23,5 @@ Data Exploration & Preprocessing
 <h1>Feature Extraction:</h1>
 
 This involves converting raw text data into numerical representations that computers can process. Techniques such as bag-of-words (illustrated in the example) analyze word frequency and create vectors for each document. Other tools like LIWC analyze linguistic features such as pronouns and emotional tones.
+<h2>Assignment<h2>
+<a href="https://colab.research.google.com/drive/1A9JWfdh3bRYqZl6Gr7VsZmJDntxUXw33">Colab</a>
