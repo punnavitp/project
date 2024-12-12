@@ -4,14 +4,14 @@
 
 
 <H1>xPore: An AI-Powered App for Bioinformatician<h1>
-  <a href=""></a>
+  <a href="https://github.com/punnavitp/project/blob/main/xPore%3A%20An%20AI-Powered%20App%20for%20Bioinformatician.md">NOTE</a>
 <H1>TinySleepNet: Learning from Biosignal<h1>
-  <a href=""></a>
+  <a href="">NOTE</a>
 <H1>CodeCloneDetection: AI for detecting code plagiarism	<h1>
-  <a href=""></a>
+  <a href="">NOTE</a>
 <H1>BiTNet: AI for diagnosing ultrasound image <h1>
-  <a href=""></a>
+  <a href="">NOTE</a>
 <H1>Mental disorder detection from social media data<h1>
-  <a href=""></a>
+  <a href="">NOTE</a>
 <H1>AI for arresting criminals	<h1>
-  <a href=""></a>
+  <a href="">NOTE</a>
