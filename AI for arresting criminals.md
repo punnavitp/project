@@ -33,3 +33,5 @@ Response: Officers can use this information to efficiently apprehend suspects.
 Improved police efficiency: AI-powered tools on smartphones will enable officers to analyze crime data efficiently, speeding up investigations and responses.
 Enhanced crime prevention: AI-driven CCTV systems will allow real-time crime monitoring and evidence recording, boosting public confidence in security measures.
 Proactive intervention: AI algorithms will analyze CCTV footage and other data sources to detect suspicious activities and send immediate alerts to police, allowing for rapid response to potential threats.
+
+<a href="https://colab.research.google.com/drive/1OkdIEPQDTTT9BgtWfQDDLMwJb8h-_t-A#scrollTo=jbVjEtPAkz3j">Colab</a>
