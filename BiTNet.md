@@ -27,3 +27,4 @@ Ultrasound Screening Data:</h3> Ultrasound screenings are performed bi-annually 
 <h3>Diagnosing 25 Abnormalities in the Upper Abdomen:</h3> This demonstrates that the AI models developed can potentially handle a broad spectrum of diagnostic tasks.
 <h3>Implementation in Srinagarind Hospital and 205 Affiliated Hospitals:</h3> This indicates that the project has already made a meaningful impact on the healthcare system in Thailand.
 <h3>Cloud-Based AI Services:</h3> By offering cloud-based AI solutions, the models developed are made more accessible to a broader range of users.
+<a href="https://colab.research.google.com/drive/1cUQEIiOHrz-0B7ajSwIcNR2_n6bPO5HL#scrollTo=CLxZvjgHAeZ0">Colab</a>
