@@ -92,3 +92,5 @@ Per-class: precision (PR), recall (RE), F1-Score (F1).
 Deep learning is widely applied to supervised learning tasks in biosignal analysis, relying on labeled data to predict outcomes. An alternative approach involves transforming raw signals into spectrogram or image representations, which can be processed using CNNs that excel in image recognition tasks. However, end-to-end training using raw signals can be challenging, especially when signals have unclear patterns or insufficient training data.
 
 Remote monitoring using deep learning is a promising avenue, as it involves adapting models developed in clinical settings to function with wearable devices.
+<h1>Assignment</h1>
+<a></a> href="">github</a>
