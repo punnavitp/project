@@ -15,5 +15,6 @@
   <a href="https://github.com/punnavitp/project/blob/main/Mental%20disorder%20detection.md">NOTE</a>
 <H1>AI for arresting criminals	<h1>
   <a href="https://github.com/punnavitp/project/blob/main/AI%20for%20arresting%20criminals.md">NOTE</a>
-
-<a href="https://github.com/punnavitp/project/blob/main/Certificate.md"><H1>Certificate<h1></a>
+  
+<H1>Certificate<h1>
+<a href="https://github.com/punnavitp/project/blob/main/Certificate.md">link</a>
