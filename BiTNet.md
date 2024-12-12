@@ -1,3 +1,5 @@
+<h1>BiTNet: AI for diagnosing ultrasound image</h1>
+
 <h1>Data Acquisition</h1>
 <h3>Surveys:</h3> Surveys were conducted with youth in the region to understand their interest in coding and AI education, their skills and knowledge in these fields, and their career aspirations.
 <h3>Focus Groups:</h3> Focus group discussions were held with youth, educators, and industry experts to collect feedback on the project and its objectives.
