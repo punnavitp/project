@@ -12,6 +12,6 @@
 <H1>BiTNet: AI for diagnosing ultrasound image <h1>
   <a href="https://github.com/punnavitp/project/blob/main/BiTNet.md">NOTE</a>
 <H1>Mental disorder detection from social media data<h1>
-  <a href="">NOTE</a>
+  <a href="https://github.com/punnavitp/project/blob/main/Mental%20disorder%20detection.md">NOTE</a>
 <H1>AI for arresting criminals	<h1>
   <a href="">NOTE</a>
