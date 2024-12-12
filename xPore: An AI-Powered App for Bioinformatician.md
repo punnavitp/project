@@ -1,78 +1,19 @@
 <H1>xPore: An AI-Powered App for Bioinformatician<h1>
 
-<h1>Nanopore RNA Modification Detection</h1>
+<h1>Problem Statement</h1>
+Nanopore sequencing is an innovative technology that enables direct RNA molecule sequencing. It measures raw electrical signal data corresponding to each nucleotide position along the RNA strand. This signal data carries crucial information about RNA modifications, such as m6A methylation. The objective is to develop a computational method to precisely identify modified positions and quantify modification rates from the nanopore data.
 
-<h2>Problem Statement</h2>
-<p>
-Nanopore sequencing is a novel technology that can directly sequence RNA molecules. It measures raw electrical signal data at each nucleotide position along the RNA strand. This signal data contains information about RNA modifications, such as <code>m6A</code> methylation.
-</p>
-<p>The goal is to develop a computational method to accurately:</p>
-<ul>
-    <li>Locate modified positions.</li>
-    <li>Quantify modification rates from nanopore data.</li>
-</ul>
+<h1>Data Collection and Preparation</h1>
+Nanopore sequencing generates raw signal data in the FAST5 format, while basecalled sequence data is provided in the FASTQ format. A reference genome is available in FASTA format. Data preprocessing involves aligning the sequences to the reference genome and aggregating the data into event-level representation, where each event corresponds to the raw signal for a k-mer in the RNA sequence.
 
-<h2>Data Collection and Preparation</h2>
-<h3>Data Formats:</h3>
-<ul>
-    <li><strong>Raw Signal Data:</strong> Produced in <code>FAST5</code> format.</li>
-    <li><strong>Basecalled Sequence Data:</strong> Output in <code>FASTQ</code> format.</li>
-    <li><strong>Reference Genome:</strong> Provided in <code>FASTA</code> format.</li>
-</ul>
+<h1>Modeling</h1>
+The approach employs a Bayesian multi-sample Gaussian mixture model (GMM) to characterize the distribution of electrical signal levels at each genomic position. The Expectation Maximization algorithm is utilized to estimate the GMM parameters. Each position is modeled as a mixture of two Gaussian distributions representing the unmodified and modified states. The model is trained across multiple samples simultaneously to enhance statistical robustness.
 
-<h3>Preprocessing Steps:</h3>
-<ul>
-    <li>Align raw sequencing data to the reference genome.</li>
-    <li>Aggregate aligned data into event-level representations.</li>
-    <li>Each event represents the raw signal for a k-mer in the original RNA sequence.</li>
-</ul>
+<h1>Evaluation</h1>
+The model demonstrates an 86% AUC on a held-out test set for detecting known m6A modifications. It provides interpretable estimates of modification rates that align closely with expected values, performs consistently across diverse tissue types and cell lines, and facilitates the identification of differentially modified positions under varying conditions.
 
-<h2>Modeling</h2>
-<h3>Approach:</h3>
-<p>
-Bayesian multi-sample Gaussian Mixture Model (GMM):
-</p>
-<ul>
-    <li>Models the distribution of electrical signal levels at each genomic position.</li>
-    <li>Uses the Expectation Maximization (EM) algorithm to fit GMM parameters.</li>
-</ul>
-
-<h3>States Modeled:</h3>
-<ul>
-    <li>Mixture of 2 Gaussians:
-        <ul>
-            <li><strong>Unmodified State</strong></li>
-            <li><strong>Modified State</strong></li>
-        </ul>
-    </li>
-</ul>
-
-<h3>Training:</h3>
-<ul>
-    <li>Performed on multiple samples simultaneously to improve statistical power.</li>
-</ul>
-
-<h2>Evaluation</h2>
-<ul>
-    <li>Achieved 86% AUC on a held-out test set for detecting known <code>m6A</code> modifications.</li>
-    <li>Provides interpretable modification rate estimates that closely match expected levels.</li>
-    <li>Performs well across various tissue types and cell lines.</li>
-    <li>Enables discovery of differentially modified positions between conditions.</li>
-</ul>
-
-<h2>Future Work</h2>
-<ul>
-    <li>Explore potential improvements:
-        <ul>
-            <li>End-to-end modeling directly from raw signal data.</li>
-            <li>Investigate alternative model architectures, such as deep autoencoders.</li>
-            <li>Extend the model to detect additional RNA modification types beyond <code>m6A</code>.</li>
-        </ul>
-    </li>
-</ul>
-
-</body>
-</html>
+<h1>Future Work</h1>
+Future directions include refining the method into an end-to-end model that processes raw signal data directly, exploring alternative model architectures such as deep autoencoders, and expanding the scope to detect other types of RNA modifications beyond m6A.
 
 
 <h2>Assignment<h2>
